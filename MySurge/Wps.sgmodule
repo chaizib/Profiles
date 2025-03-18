@@ -1,0 +1,10 @@
+#!name=WPS.VIP
+#!desc=wps会员破解
+#!system=ios
+#!category=常用模块
+
+[Script]
+wpsvip = type=http-response, pattern=^https:\/\/(vip|vas)\.wps\.cn\/((v2\/vip_center\/my\/privilege)|(query\/api\/v1\/(list_purchase_info|list_privilege_info))), script-path=https://raw.githubusercontent.com/chaizib/Profiles/master/MyJs/WPS.js, requires-body=true, max-size=-1
+
+[MITM]
+hostname = %APPEND% vas.wps.cn, vip.wps.cn
