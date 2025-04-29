@@ -1,0 +1,14 @@
+#!name = Github429
+#!desc = 解决github速率限制返回429问题 
+#!author= mieq 水君
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/LoonIcons/github.png
+
+[Rewrite]
+# 解决github速率限制返回429问题
+^https:\/\/(raw|gist)\.githubusercontent\.com\/ header-replace Accept-Language en-us
+^https:\/\/github\.com\/ header-replace Accept-Language en-us
+
+[Mitm]
+hostname = raw.githubusercontent.com,gist.githubusercontent.com,github.com
