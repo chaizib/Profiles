@@ -1,51 +1,47 @@
 {
 	"name": "Emby自用图标库",
-	"description": "v1.0.4",
+	"description": "v1.0.8",
 	"icons": [
 		
 		{
-			"name": "1111",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/1111.png"
-		},
-		{
-			"name": "MisakaF",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/MisakaF2.png"
-		},
-		{
-			"name": "Aliyunpan",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Aliyunpan.png"
-		},
-		{
-			"name": "Orange",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Orange.png"
+			"name": "PiliPili",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/pilipili.png"
 		},
 		{
 			"name": "Zhipianren",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Zhipianren.png"
 		},
 		{
-			"name": "Zhongdianzhan",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/EmbyPub.png"
+			"name": "NyaMedia",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Nya.png"
 		},
 		{
 			"name": "JMS",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Jms.png"
 		},
 		{
-			"name": "ntRRR",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Ntrrr.png"
+			"name": "DPX",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Dpx.png"
 		},
 		{
-			"name": "hxd1",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/hxd1.png"
+			"name": "Lyrebird",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Lyrebird.png"
+		},
+		{
+			"name": "JMS",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Jms.png"
+		},
+		{
+			"name": "1111",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/1112.png"
 		},
 		{
 			"name": "hxd2",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/hxd2.png"
 		},
 		{
-			"name": "lyrebird",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Lyrebird.png"
+			"name": "peach",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/peach.png"
 		}
 	]
 }
