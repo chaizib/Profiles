@@ -3,7 +3,7 @@
 #!category=常用模块
 
 [Map Local]
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data-type=text data="{}" status-code=200
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data-type=text data="" status-code=200
 
 [MITM]
 hostname = %APPEND% client.app.coc.10086.cn
