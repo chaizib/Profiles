@@ -1,10 +1,8 @@
 #!name = 中国移动
 #!desc = 我就看个话费余额了解你妹的活动？
 #!tag = 去广告
-#!system = 
-#!system_version = 
 #!icon = https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/LoonIcons/cmcc.png
-#!date = 2024-11-06 00:07:00
+#!date = 2025年5月18日
 
 [Rewrite]
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject-200
