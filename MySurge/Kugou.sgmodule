@@ -1,25 +1,21 @@
 #!name=酷狗净化
-#!desc=去除开屏、弹窗、横幅等所有广告。
+#!desc=去除开屏、弹窗、横幅等所有广告@可莉🅥。
 #!system=ios
 #!category=常用模块
 #!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
-#!date=2025-03-09 03:19:39
+#!date=2025-05-13 15:17:08
 
 [Rule]
-DOMAIN,ads.service.kugou.com,REJECT
-DOMAIN,adstats.tencentmusic.com,REJECT
-DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,adserviceretry.kugou.com,REJECT
-DOMAIN,adserviceretry.kglink.cn,REJECT
-DOMAIN,ad.tencentmusic.com,REJECT
-DOMAIN,adservice.kugou.com,REJECT
-DOMAIN,splashimgretrybssdl.cloud.kugou.com,REJECT
-DOMAIN,ios.bugly.qq.com,REJECT
-DOMAIN,sdk.e.qq.com,REJECT
-DOMAIN,us.l.qq.com,REJECT
-DOMAIN-SUFFIX,ugdtimg.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html",REJECT
+DOMAIN, ads.service.kugou.com, REJECT
+DOMAIN, adstats.tencentmusic.com, REJECT
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, adserviceretry.kugou.com, REJECT
+DOMAIN, adserviceretry.kglink.cn, REJECT
+DOMAIN, ad.tencentmusic.com, REJECT
+DOMAIN, adservice.kugou.com, REJECT
+DOMAIN, splashimgretrybssdl.cloud.kugou.com, REJECT
+
+URL-REGEX, "^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html", REJECT
 
 [Body Rewrite]
 http-response-jq ^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/tab\/list_v\d 'def namesToRemove:["AI帮唱","长相思2","K歌","小说","游戏"];def removeParentIfNameMatches:if type=="object"then with_entries(select(.value|(type=="object"and .name as $name|$name|IN(namesToRemove[])|not)))|map_values(removeParentIfNameMatches)else .end;removeParentIfNameMatches'
