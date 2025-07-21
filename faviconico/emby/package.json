@@ -1,6 +1,6 @@
 {
 	"name": "Emby自用图标库",
-	"description": "v1.0.8",
+	"description": "v1.0.9",
 	"icons": [
 		
 		{
@@ -16,12 +16,12 @@
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Nya.png"
 		},
 		{
-			"name": "JMS",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Jms.png"
+			"name": "embyzn",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/zn.png"
 		},
 		{
-			"name": "DPX",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Dpx.png"
+			"name": "hxd2",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/hxd2.png"
 		},
 		{
 			"name": "Lyrebird",
@@ -32,12 +32,16 @@
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/1112.png"
 		},
 		{
-			"name": "hxd2",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/hxd2.png"
-		},
-		{
 			"name": "peach",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/peach.png"
+		},
+		{
+			"name": "Ntrrr",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Ntrrr.png"
+		},
+		{
+			"name": "SNTP",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/SNTP2.png"
 		}
 	]
 }
