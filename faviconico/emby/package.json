@@ -1,6 +1,6 @@
 {
 	"name": "Emby自用图标库",
-	"description": "v1.2.1",
+	"description": "v1.2.2",
 	"icons": [
 		
 		{
@@ -24,6 +24,10 @@
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Lyrebird.png"
 		},
 		{
+			"name": "Lyrebird2",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Lyrebird2.png"
+		},
+		{
 			"name": "1111",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/1112.png"
 		},
@@ -38,6 +42,10 @@
 		{
 			"name": "Youno",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Youno.png"
+		},
+		{
+			"name": "Youno2",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Youno2.png"
 		}
 	]
 }
