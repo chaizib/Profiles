@@ -37,6 +37,10 @@
 		},
 		{
 			"name": "SNTP",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/sntp.png"
+		},
+		{
+			"name": "SNTP2",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/sntp2.png"
 		},
 		{
