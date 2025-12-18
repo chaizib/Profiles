@@ -1,6 +1,6 @@
 {
 	"name": "Emby自用图标库",
-	"description": "v1.2.2",
+	"description": "v1.2.3",
 	"icons": [
 		
 		{
@@ -50,6 +50,10 @@
 		{
 			"name": "Youno2",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Youno2.png"
+		},
+		{
+			"name": "cat",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Cat.png"
 		}
 	]
 }
