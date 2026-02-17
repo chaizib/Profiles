@@ -1,6 +1,6 @@
 {
 	"name": "Emby自用图标库",
-	"description": "v1.2.5",
+	"description": "v1.3.0",
 	"icons": [
 		
 		{
@@ -54,6 +54,10 @@
 		{
 			"name": "cat",
 			"url": "https://raw.githubusercontent.com/chaizib/Profiles/master/faviconico/emby/Cat.png"
+		},
+		{
+			"name": "ntrrr",
+			"url": "https://raw.githubusercontent.com/chaizib/Profiles/master/faviconico/emby/Ntrrr.png"
 		},
 		{
 			"name": "mirai",
