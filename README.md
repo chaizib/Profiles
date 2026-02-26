@@ -1,4 +1,3 @@
-[![chaizib's GitHub stats](https://github-readme-stats.vercel.app/api?username=chaizib&show_icons=true&count_private=true&icon_color=008080&text_color=00AEFF&bg_color=27282200)](https://github.com/chaizib)
 ## 有任何使用问题别问我，我什么都不懂。
 ### 说明 :
 
