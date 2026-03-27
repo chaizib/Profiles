@@ -44,9 +44,9 @@ echo -e "⏰ ${BLUE}当前时间:${RESET}    ${CYAN}${CURRENT_DATE} (${WEEKDAY})
 echo -e "📊 ${BLUE}系统负载:${RESET}    ${CYAN}${LOAD_AVG}${RESET}"
 echo -e "🆙 ${BLUE}运行时间:${RESET}    ${CYAN}${UPTIME}${RESET}"
 echo -e "💾 ${BLUE}内存使用:${RESET}    ${CYAN}${MEM_INFO}${RESET}"
-echo -e "🗂️  ${BLUE}磁盘使用:${RESET}    ${CYAN}${DISK_INFO}${RESET}"
+echo -e "🗂️ ${BLUE}磁盘使用:${RESET}    ${CYAN}${DISK_INFO}${RESET}"
 echo -e "📦 ${BLUE}最近更新:${RESET}    ${CYAN}${LAST_APT_ACT}${RESET}"
-echo -e "🖥️  ${BLUE}系统版本:${RESET}    ${CYAN}${OS_VER}${RESET}"
+echo -e "🖥️ ${BLUE}系统版本:${RESET}    ${CYAN}${OS_VER}${RESET}"
 echo -e "${BLUE}------------------------------------------------------------${RESET}"
 
 # 5. Docker 状态监测 (逻辑精确化：区分总数与运行数)
